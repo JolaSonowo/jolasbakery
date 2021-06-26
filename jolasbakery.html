@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title></title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Jola's Bakery</title>
+<style>
+body{
+  background-color:#FFE5D1;
+
+}
+a{
+  color:black;
+}
+
+p{
+  font-size:20px !important;
+  font-weight:200;
+
+}
+h1{
+  color:#FFFFFF;
+
+;
+}
+#bake{
+  text-align:center;
+}
+#copy{
+  text-align:center;
+
+}
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+
+    background-color: #F7EAE2;
+  }
+  .bg-secondary {
+    background-color:#F7EAE2!important;
+}
+#header{
+  height:500px;
+/*  margin-top:15px;*/
+  margin:0 !important;
+
+  padding:0!important;
+
+
+}
+.carousel-inner {
+    margin: 0 !important;
+
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+  </style>
+  </head>
+  <body>
+
+ <br>
+
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a href="#" class="navbar-brand"><img src="jolalogo.png" style= "width:50px;" ></a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link ">home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">about</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">recipes</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">buttercream cake</a>
+                    <a href="#chocolatecake" class="dropdown-item">chocolate cake</a>
+                    <a href="#" class="dropdown-item">cookies and cream cake</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#"class="dropdown-item">discounts</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">order now</a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a href="#" class="dropdown-item">sign in</a>
+                    <a href="#" class="dropdown-item">log in</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#"class="dropdown-item">log out</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="header">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+<!-- Indicators -->
+<ul class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+</ul>
+
+<!-- The slideshow -->
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="https://images.unsplash.com/photo-1565498253128-c06e0488ddee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80" alt="Los Angeles" style="width:100%; height:500px;">
+ <div class="carousel-caption">
+    <br>
+      <h1 class="display-4"><i>Welcome to Jola's Bakery</i></h1>
+
+
+</div>
+</div>
+
+  <div class="carousel-item">
+    <img src="https://images.unsplash.com/photo-1594706628605-879a44d615a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="Chicago" style="width:100%; height:500px">
+    <div class="carousel-caption">
+      <br>
+      <h1 class="display-4"><i>Welcome to Jola's Bakery</i></h1>
+
+</div>
+
+  </div>
+  <div class="carousel-item">
+    <img src="https://images.unsplash.com/photo-1573750217191-d8e5c5f61f98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt="New York" style="width:100%; height:500px">
+    <div class="carousel-caption">
+      <br>
+      <h1 class="display-4"><i>Welcome to Jola's Bakery</i></h1>
+
+  </div>
+</div>
+
+  <div class="carousel-item">
+    <img src="https://images.unsplash.com/photo-1595144780677-6d0b5abbd089?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1927&q=80" alt="Chicago" style="width:100%; height:500px">
+    <div class="carousel-caption">
+      <br>
+      <h1 class="display-4"><i>Welcome to Jola's Bakery</i></h1>
+  <h3>cupcakes for everyone!</h3>
+
+</div>
+</div>
+<div class="carousel-item">
+  <img src="https://images.unsplash.com/photo-1592148121354-383fe3029e10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=662&q=80" alt="Chicago" style="width:100%; height:500px">
+  <div class="carousel-caption">
+    <br>
+    <h1 class="display-4"><i>Welcome to Jola's Bakery</i></h1>
+<h3>hot fresh buns!</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Left and right controls -->
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#demo" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</a>
+
+</div>
+
+</div>
+</div>
+  <div class="container-fluid">
+  <h1 class="display-4" id="bake"><i>About Jola's Bakery!</i></h1>
+  <br>
+    <div class="row ">
+        <div class="col-md-3">
+            <img class="" src="C:\Users\Dimeji-PC\Downloads\Screenshot 2021-06-08 190646.png" width="320px">
+
+        </div>
+
+        <div class="col-md-9">
+          <br><br>
+      <p>    <strong>Jola's Bakery</strong> is <i>not your average bakery</i>. We are dedicated to providing excellent service to customers by selling awesome treats to all dessert lovers out there.<br><br>Whether you’re afraid of an oven or an experienced baker, we have recipes which <strong> you have to try out!! </strong></p>
+<h4> <i>NEW FEATURE:</i></h4><p> You can now shop online directly from our website by clicking the <b>"order now"</b> button in the header above.
+       </p>
+    </div>
+</div>
+<br><Br><br>
+  <div class="row ">
+      <div class="col-md-4">
+
+          <h2> Special News</h2>
+          <p> We are have bakeries across the globe, now in the following countries:
+<ul>
+<li>USA</li>
+<li>UK</li>
+<li>Nigeria</li>
+<li>Canada</li>
+<li>South Africa</li>
+</ul>
+          </p>
+
+      </div>
+
+      <div class="col-md-4">
+<h2>Testimonials</h2>
+    <p>
+      <ul>
+        <li><b>Ayo Balogun (singer,dancer):</b> <i>"Jola's Bakery is the best bakery, I've ever visited! Excellent customer service"</i></li>
+        <li><b>Chioma Osarene (world-renowned chef):</b> <i>"Superb cakes! These cakes are of high quality and are the best cakes I have ever tasted"</i></li>
+        <li><b>Steve Johnson (finalist on CelebrityChef):</b> <i>"At first I was skeptical, but once I tasted a sample, I knew I was hooked!"</i></li>
+
+        <ul>
+     </p>
+  </div>
+  <div class="col-md-4">
+    <h2>Sales</h2>
+        <p>
+          We have one-time offer sales, that will end by <strong>July 31st, 2021</strong>.</p>
+          <ul>
+            <li>Buy 2 chocolate/vanilla cupcakes, get one free</li>
+            <li>Buy a 12 inch red velvet cake, get 4 chocolate cupcakes free</li>
+            <li>Buy an 8 inch birthday cakes, get 3 vanilla cupcakes free</li>
+
+            <ul>
+
+</div>
+</div>
+  <h1 id="chocolatecake"></h1>
+<br><Br><br>
+
+  <h5><i>How To Make A Chocolate Cake</i></h5>
+  <br>
+    <div class="row ">
+        <div class="col-md-5">
+            <img class="" src="https://www.cookingclassy.com/wp-content/uploads/2019/10/chocolate-cake-3-768x1152.jpg" width="350px" height="250px">
+
+        </div>
+<br><Br>
+        <div class="col-md-7">  <p>
+            Chocolate cakes are such a tasty treat to be enjoyed by all. <br> Here's how to make one:</p>
+            <div class="row">
+            <div class="col-md-4">
+                <p>Ingredients:
+            <ul>
+              <li>1 cup unsweetened cocoa powder (natural or Dutch process)</li>
+              <li>2 1/2 cups all-purpose flour</li>
+              <li>2 cups sugar</li>
+  <li>1 1/2 teaspoons baking powder</li>
+    <li>1 teaspoon baking soda</li>
+      <li>3 large eggs, at room temperature</li>
+          <li>2 teaspoons vanilla extract</li>
+    </ul></p>
+              </div>
+              <div class="col-md-7">
+<p>Steps:
+  <ul>
+<li>Preheat the oven to 350 degrees F. Coat two 9-inch-round cake pans with cooking spray and line the bottoms with parchment paper.</li>
+<li>Whisk the cocoa powder and 1 1/2 cups boiling water in a medium bowl until smooth; set aside. Whisk the flour, sugar, baking powder, baking soda and salt in a large bowl until combined. Add the eggs, vegetable oil, sour cream and vanilla and beat with a mixer on medium speed until smooth, about 1 minute. Reduce the mixer speed to low; beat in the cocoa mixture in a steady stream until just combined, then finish mixing with a rubber spatula. (The batter will be thin.)</li>
+<li>Divide the batter between the prepared pans and tap the pans against the counter to help the batter settle. Bake until a toothpick inserted into the middle comes out clean, 30 to 40 minutes. Transfer to racks and let cool 10 minutes, then run a knife around the edge of the pans and turn the cakes out onto the racks to cool completely. Remove the parchment. Trim the tops of the cakes with a long serrated knife to make them level, if desired.</li>
+<li> Decorate to your desired taste</li>
+  </ul>
+</p>
+              </div>
+</div>
+    </div>
+
+    <div class="container-fluid">
+  <div id="about"></div>
+<br><Br>
+    <div class="card card-sm" style="width:550px">
+    <div class="card-header bg-secondary">
+   Meet Our Founder</div>
+    <img src="https://static01.nyt.com/images/2021/01/13/dining/13blackwomen1/04blackwomen1-superJumbo.jpg?quality=90&auto=webp " class="card-img-top">
+    <div class="card-body bg-secondary ">
+      <h5 class="card-title">About Jola</h5>
+      <p class="card-text"> Jola has been baking since she was six years old. <br>She founded Jola's Bakery in 2012 to provide tasty desserts for her community.<br> She has been featured by many prestigious organizations such as the New York Times and was listed on Forbes' Magazine as one of the best businesses of 2015.
+        <div class="card-footer bg-secondary">
+    <a href="https://www.google.com/" >  Click here to know more about Jola and meet the rest of the team</a>
+        </div>
+<br>
+</div>
+</div></div>
+</div><br><br>
+<p id="copy"> &copy 2021</p>
+  </body>
+</html>
